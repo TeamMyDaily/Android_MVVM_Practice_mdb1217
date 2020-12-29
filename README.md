@@ -13,3 +13,6 @@ https://dev-imaec.tistory.com/39
 
 https://dev-imaec.tistory.com/40
 (**DataBinding과 LiveData 함께 사용하기**)
+
+https://kangmin1012.tistory.com/39
+(**ViewModel + LiveData + DataBinding** ~~구글링하다 찾은 파트장님 블로그..~~)
