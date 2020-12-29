@@ -6,10 +6,10 @@ https://blog.yena.io/studynote/2019/03/16/Android-MVVM-AAC-1.html
 (**MVC와 MVVM의 차이점**)
 
 https://dev-imaec.tistory.com/37
-(**data binding의 기초**)
+(**DataBinding의 기초**)
 
 https://dev-imaec.tistory.com/39
-(**Live data의 기초**)
+(**LiveData의 기초**)
 
 https://dev-imaec.tistory.com/40
-(**data binding과 Live data같이 사용하기**)
+(**DataBinding과 LiveData 함께 사용하기**)
