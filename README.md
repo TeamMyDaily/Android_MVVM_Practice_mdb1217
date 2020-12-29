@@ -1,6 +1,9 @@
 # Android_MVVM_Practice_mdb1217
 <img src="https://blog.yena.io/assets/post-img19/190316-mvc-mvvm.png"  width="700" height="500">
 
+## 설계도
+<img src="https://postfiles.pstatic.net/MjAyMDEyMjlfMTc3/MDAxNjA5MjUzODI2MTM5.SFswrY21XvJR0_STAsNOBmiqjT3A3w-bh0bH0zvrGjcg.w4npChndXhs9kuNtyvWF8NLod-hy3yuIdEW7HNXdspcg.JPEG.mdb1217/Screenshot%EF%BC%BF20201229%EF%BC%8D235429%EF%BC%BFSamsung_Notes.jpg?type=w773"  width="300" height="550">
+
 ## 참고 링크
 https://blog.yena.io/studynote/2019/03/16/Android-MVVM-AAC-1.html
 (**MVC와 MVVM의 차이점**)
@@ -16,3 +19,6 @@ https://dev-imaec.tistory.com/40
 
 https://kangmin1012.tistory.com/39
 (**ViewModel + LiveData + DataBinding** ~~구글링하다 찾은 파트장님 블로그..~~)
+
+https://blog.yena.io/studynote/2019/03/27/Android-MVVM-AAC-2.html
+(**MVVM & AAC 연습 예제**)
