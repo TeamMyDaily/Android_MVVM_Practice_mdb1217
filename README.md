@@ -37,3 +37,9 @@ https://stackoverflow.com/questions/52076779/kotlin-custom-dialog-in-android
 
 https://hongbeomi.medium.com/animation-splash-screen-%EB%A7%8C%EB%93%A4%EA%B8%B0-54b6d21e8bdd
 (**애니메이션 효과 활용해서 Splash만들기**)
+
+https://ddangeun.tistory.com/83
+(**ViewModel과 DataBinding**)
+
+https://ddangeun.tistory.com/84?category=874345
+(**Repository와 ViewModel**)
