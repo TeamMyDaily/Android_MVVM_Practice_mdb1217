@@ -17,6 +17,6 @@ data class ListData(
 
     @ColumnInfo(name = "label")
     var label: String
-) {
+){
     constructor() : this(null, "", "", "")
 }
