@@ -3,7 +3,7 @@ package com.example.mvvmpractice
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mvvmpractice.databinding.TodoListBinding
 
-class TodoListViewHolder(val binding : TodoListBinding) : RecyclerView.ViewHolder(binding.root) {
+class TodoListViewHolder(val binding : TodoListBinding, val model : MainViewModel) : RecyclerView.ViewHolder(binding.root) {
     fun onBind(data: ListData) {
         binding.apply{
             listdata = data
@@ -15,7 +15,7 @@ class TodoListViewHolder(val binding : TodoListBinding) : RecyclerView.ViewHolde
                 label.setBackgroundResource(R.drawable.low)
 
             deleteButton.setOnClickListener{
-
+                model.delete(data)
             }
         }
     }

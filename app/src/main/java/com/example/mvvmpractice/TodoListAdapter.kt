@@ -7,13 +7,13 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mvvmpractice.databinding.TodoListBinding
 
-class TodoListAdapter(private val context: Context) : RecyclerView.Adapter<TodoListViewHolder>() {
+class TodoListAdapter(private val context: Context, val model : MainViewModel) : RecyclerView.Adapter<TodoListViewHolder>() {
     private lateinit var binding: TodoListBinding
     var data = mutableListOf<ListData>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TodoListViewHolder {
         binding = DataBindingUtil.inflate(LayoutInflater.from(context),R.layout.todo_list, parent, false)
-        return TodoListViewHolder(binding)
+        return TodoListViewHolder(binding, model)
     }
 
     override fun getItemCount(): Int = data.size

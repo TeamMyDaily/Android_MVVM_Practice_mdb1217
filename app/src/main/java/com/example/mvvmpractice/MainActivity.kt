@@ -19,16 +19,16 @@ class MainActivity : AppCompatActivity() {
     private lateinit var model: MainViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        todoListAdapter = TodoListAdapter(this)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.apply{
             lifecycleOwner = this@MainActivity
             activity = this@MainActivity
 
+            model = ViewModelProvider(this@MainActivity).get(MainViewModel::class.java)
+            todoListAdapter = TodoListAdapter(this@MainActivity, model)
             recyclerView.adapter = todoListAdapter
             recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
 
-            model = ViewModelProvider(this@MainActivity).get(MainViewModel::class.java)
             model.getAll().observe(this@MainActivity, Observer<List<ListData>> { todolist ->
                 todoListAdapter.setTodoList(todolist)
             })
